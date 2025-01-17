@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { decrement, increment, reset } from '../redux/slice/CounterSlice'
+//git edit testing
 
 const CounterView = () => {
     useSelector(state=>console.log("In counter component, state value: ",state))
